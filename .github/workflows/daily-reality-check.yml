@@ -1,0 +1,58 @@
+name: Daily Reality Check
+
+# Perth is UTC+8 all year (no daylight saving), so Perth midnight = 16:00 UTC.
+# GitHub can start scheduled runs late, so there are backup runs.
+# Every run works out the Perth date itself, so extra runs are harmless.
+on:
+  schedule:
+    - cron: "2 16 * * *"    # 00:02 Perth
+    - cron: "30 16 * * *"   # 00:30 Perth (backup)
+    - cron: "15 18 * * *"   # 02:15 Perth (backup)
+    - cron: "40 21 * * *"   # 05:40 Perth (backup, before you wake up)
+  workflow_dispatch: {}     # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-reality-check
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Pick today's message (Perth date)
+        run: node build.mjs
+
+      - name: Save today's files to the repository (only if they changed)
+        run: |
+          if git diff --quiet -- docs && [ -z "$(git ls-files --others --exclude-standard docs)" ]; then
+            echo "Already up to date for today."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add docs
+            git commit -m "Reality check for $(TZ=Australia/Perth date +%F)"
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - id: deploy
+        uses: actions/deploy-pages@v4
