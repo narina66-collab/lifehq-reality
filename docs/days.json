@@ -1,8 +1,7 @@
 {
  "timezone": "Australia/Perth",
- "from": "2026-11-11",
+ "from": "2026-11-12",
  "days": {
-  "d20261111": "Your future self is begging you to do the boring thing today.",
   "d20261112": "Being underestimated is fun. Use it.",
   "d20261113": "If it's not a hell yes, it's a polite no and an early night.",
   "d20261114": "Tidy desk, tidy mind? Nice theory. Do the actual work first.",
@@ -403,6 +402,7 @@
   "d20271214": "If it costs you your peace, it's too expensive. Even on sale.",
   "d20271215": "You're not behind. You're on your own bloody timeline.",
   "d20271216": "You don't need another bloody plan. You need to do the thing.",
-  "d20271217": "Comparison is a thief, and a liar. Stop letting her in the front door."
+  "d20271217": "Comparison is a thief, and a liar. Stop letting her in the front door.",
+  "d20271218": "Not everything is your responsibility. Stop collecting other people's problems."
  }
 }
