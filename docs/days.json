@@ -1,8 +1,7 @@
 {
  "timezone": "Australia/Perth",
- "from": "2026-11-12",
+ "from": "2026-11-13",
  "days": {
-  "d20261112": "Being underestimated is fun. Use it.",
   "d20261113": "If it's not a hell yes, it's a polite no and an early night.",
   "d20261114": "Tidy desk, tidy mind? Nice theory. Do the actual work first.",
   "d20261115": "Nobody is coming to give you permission. Consider this a forged permission slip.",
@@ -403,6 +402,7 @@
   "d20271215": "You're not behind. You're on your own bloody timeline.",
   "d20271216": "You don't need another bloody plan. You need to do the thing.",
   "d20271217": "Comparison is a thief, and a liar. Stop letting her in the front door.",
-  "d20271218": "Not everything is your responsibility. Stop collecting other people's problems."
+  "d20271218": "Not everything is your responsibility. Stop collecting other people's problems.",
+  "d20271219": "Let people be disappointed. They'll survive. So will you."
  }
 }
