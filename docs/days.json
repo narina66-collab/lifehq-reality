@@ -1,8 +1,7 @@
 {
  "timezone": "Australia/Perth",
- "from": "2026-11-15",
+ "from": "2026-11-16",
  "days": {
-  "d20261115": "Nobody is coming to give you permission. Consider this a forged permission slip.",
   "d20261116": "Perfectionism is procrastination wearing expensive shoes.",
   "d20261117": "One brave email can save you three weeks of quiet dread.",
   "d20261118": "You've survived worse than an awkward conversation. Send the bloody email.",
@@ -403,6 +402,7 @@
   "d20271218": "Not everything is your responsibility. Stop collecting other people's problems.",
   "d20271219": "Let people be disappointed. They'll survive. So will you.",
   "d20271220": "Some things need your attention. Others need you to stop giving a shit.",
-  "d20271221": "You've done harder things before breakfast. This is not the hill."
+  "d20271221": "You've done harder things before breakfast. This is not the hill.",
+  "d20271222": "If they wanted it done their way, they could have done it themselves. Let them."
  }
 }
