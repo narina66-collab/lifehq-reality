@@ -1,8 +1,7 @@
 {
  "timezone": "Australia/Perth",
- "from": "2026-11-17",
+ "from": "2026-11-18",
  "days": {
-  "d20261117": "One brave email can save you three weeks of quiet dread.",
   "d20261118": "You've survived worse than an awkward conversation. Send the bloody email.",
   "d20261119": "Joy isn't frivolous. It's fuel. Go and get some.",
   "d20261120": "'No' is a complete sentence. It doesn't need a footnote, an apology and three alternative dates.",
@@ -403,6 +402,7 @@
   "d20271220": "Some things need your attention. Others need you to stop giving a shit.",
   "d20271221": "You've done harder things before breakfast. This is not the hill.",
   "d20271222": "If they wanted it done their way, they could have done it themselves. Let them.",
-  "d20271223": "Stop explaining yourself to people committed to misunderstanding you."
+  "d20271223": "Stop explaining yourself to people committed to misunderstanding you.",
+  "d20271224": "You are not the unpaid project manager of everyone else's life."
  }
 }
