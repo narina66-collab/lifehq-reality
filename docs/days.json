@@ -1,8 +1,7 @@
 {
  "timezone": "Australia/Perth",
- "from": "2026-11-20",
+ "from": "2026-11-21",
  "days": {
-  "d20261120": "'No' is a complete sentence. It doesn't need a footnote, an apology and three alternative dates.",
   "d20261121": "If someone only calls when they need something, that's not a friendship. That's a helpdesk.",
   "d20261122": "Rest isn't a reward for finishing everything. Nothing is ever finished. Sit down.",
   "d20261123": "You can't edit a blank page. Write the crap first draft.",
@@ -403,6 +402,7 @@
   "d20271223": "Stop explaining yourself to people committed to misunderstanding you.",
   "d20271224": "You are not the unpaid project manager of everyone else's life.",
   "d20271225": "Being the reliable one is lovely, right up until it's a full-time unpaid job.",
-  "d20271226": "Decisions don't improve by marinating in your head for three weeks. Pick one."
+  "d20271226": "Decisions don't improve by marinating in your head for three weeks. Pick one.",
+  "d20271227": "Feelings are information, not instructions."
  }
 }
