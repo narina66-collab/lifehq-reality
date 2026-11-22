@@ -1,8 +1,7 @@
 {
  "timezone": "Australia/Perth",
- "from": "2026-11-21",
+ "from": "2026-11-22",
  "days": {
-  "d20261121": "If someone only calls when they need something, that's not a friendship. That's a helpdesk.",
   "d20261122": "Rest isn't a reward for finishing everything. Nothing is ever finished. Sit down.",
   "d20261123": "You can't edit a blank page. Write the crap first draft.",
   "d20261124": "Being busy is not a personality. Neither is being exhausted.",
@@ -403,6 +402,7 @@
   "d20271224": "You are not the unpaid project manager of everyone else's life.",
   "d20271225": "Being the reliable one is lovely, right up until it's a full-time unpaid job.",
   "d20271226": "Decisions don't improve by marinating in your head for three weeks. Pick one.",
-  "d20271227": "Feelings are information, not instructions."
+  "d20271227": "Feelings are information, not instructions.",
+  "d20271228": "Stop rehearsing arguments in the shower. Have the conversation or let it go."
  }
 }
