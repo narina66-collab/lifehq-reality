@@ -1,8 +1,7 @@
 {
  "timezone": "Australia/Perth",
- "from": "2026-11-26",
+ "from": "2026-11-27",
  "days": {
-  "d20261126": "Courage is mostly doing it anyway with a slightly sweaty face.",
   "d20261127": "Finish one thing properly today. Then pour yourself something nice.",
   "d20261128": "Guilt is not a to-do list. Check if it's earned. If not, bin it.",
   "d20261129": "You're not too much. Some people just have very small cups.",
@@ -403,6 +402,7 @@
   "d20271229": "If you keep moving the deadline, it's not a deadline. It's a suggestion.",
   "d20271230": "You can't pour from an empty cup, and doom-scrolling is not a refill.",
   "d20271231": "Stop shrinking to make other people comfortable. Stretch.",
-  "d20280101": "Done and out the door beats perfect and rotting in your drafts."
+  "d20280101": "Done and out the door beats perfect and rotting in your drafts.",
+  "d20280102": "Choose your hard: the awkward conversation now, or the resentment later."
  }
 }
